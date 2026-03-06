@@ -1,4 +1,4 @@
-import os
+import os, platform
 
 def clear():
     if platform.system() == "Windows":
@@ -11,6 +11,7 @@ if __name__ == "__main__":
 
 print("some crazy stuff")
 print("some more crazy stuff")
+print(platform.system())
 v1 = input()
 clear()
 print("this statement happened after clear was run")

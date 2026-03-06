@@ -18,14 +18,14 @@ using std::endl;
 //etc.
 
 int main() {
-
+    //below is a regular for loop
     std::cout << "\n";
-    string students[] = {"Spongebob", "Patrick", "Sandy", "Sharlene", "Gary", "Squidward"};
+    string students[] = {"Spongebob", "Patrick", "Sandy", "Sharlene", "Gary", "Squidward", "the 'my leg' guy"};
     for(int i = 0; i < sizeof(students)/sizeof(string); i++){
         cout << students[i] << "\n";
     }
     cout << endl;
-    //alternatively
+    //alternatively: below are two for each loops
     for(string student : students){
         cout << student << "\n";
     }

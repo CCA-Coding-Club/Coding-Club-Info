@@ -10,7 +10,9 @@
 //template used
 //Functions
 double getTotal(double prices[], int size);
-//the compiler automatically turns double prices[] contained within the above function into double* prices
+//the compiler automatically turns double prices[] contained within the above function into double* prices.
+//This means that the size of the array must be passed to the function seperately and cannot be found within the function
+//using a vector is a potential solution to this. For example const std::vector<double>& prices; prices.size();
 
 //Here are some neat namespaces to consider using consistantly
 using std::cout;
