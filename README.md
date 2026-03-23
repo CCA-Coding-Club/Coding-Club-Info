@@ -138,7 +138,7 @@ To contribute:
 
 If you’d like to get involved or have questions:
 - **Email:** wmook@student.cccs.edu
-- **Discord:** N/A
+- **Discord:** https://discord.gg/BtkhmyvB
 - **WhatsApp:** Available upon request
 - **GitHub Discussions:** Use the “Discussions” tab to connect with others  
 
